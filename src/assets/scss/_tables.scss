@@ -1,0 +1,39 @@
+.data-table {
+  border-collapse: collapse;
+}
+
+.data-table-header {
+  text-transform: uppercase;
+  font-size: 12px;
+  vertical-align: bottom;
+}
+
+.data-table-cell {
+  padding: 10px;
+  padding-left: 0;
+  border-bottom: 1px solid $medium-gray;
+  vertical-align: middle;
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.data-table-rank {
+  border: none;
+  text-align: right;
+  color: $dark-gray;
+}
+
+.network-logo-wrap {
+  width: 50px;
+  float: left;
+  padding-right: 5px;
+}
+
+.series-network {
+  font-size: 14px;
+}
+
+.series-title {
+  font-weight: bold;
+}

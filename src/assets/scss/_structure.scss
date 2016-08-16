@@ -1,0 +1,23 @@
+table.body {
+  margin-top: 30px;
+}
+
+table.container {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35);
+  border-radius: $global-radius;
+}
+
+.email-header {
+  padding-top: $global-padding;
+}
+
+.canvs-logo {
+  margin: $global-padding 0;
+  img {
+    width: 250px;
+  }
+}
+
+.email-title {
+  padding: 0 $global-padding;
+}
